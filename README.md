@@ -424,3 +424,28 @@ It demonstrates professional-grade shell scripting with:
 
 The final script supports ascending/descending displays using both loop styles, providing flexibility while maintaining security through strict file permissions.  
 
+# Review
+
+👍🏽 Excellent
+Review
+The project thoroughly implements the instructor's objectives. Here's a detailed evaluation:
+
+Purpose: The script successfully achieves the goal of generating multiplication tables based on user input, offering both full and partial tables, formatted display options, and ascending/descending order functionality. It solidifies scripting principles such as loops, user input handling, and modular design, meeting the instructional objectives. Grade: 25/25
+
+Requirement: Core requirements of implementing list-style and C-style loops for multiplication table generation are well-met, and error handling is incorporated via input validation. The script applies secure permission settings (chmod u+x) and uses modular functions for clear logic separation. Input validation ensures robust handling of incorrect input values, meeting the project requirements. Grade: 25/25
+
+Use Case: The script showcases practical Bash scripting scenarios, enhancing user interaction with interactive prompts and format selection. It accurately demonstrates the utility of list and C-style loops for dynamic table generation. Advanced features like input sanitization, security principles, and modular function usage make this script applicable to real-world tasks where repetitive calculations need efficient scripting. Grade: 25/25
+
+Performance: Robustness and accuracy in output are demonstrated through validations and comprehensive tests included in the project (e.g., invalid and valid inputs, range handling). The script also integrates security best practices like restricting permissions, preventing privilege escalation, and adding error-logging capabilities. It provides clear, readable outputs and efficient execution without runtime errors. Grade: 25/25
+
+Artifacts Review:
+
+The screenshots and code snippets are detailed, visually verifying each major step, including file creation, permission adjustment, validation testing, table formatting, and outputs. The integration of inputs demonstrates correctness.
+Images showing ascending/descending order and loop comparison enhance the educational objectives, explicitly contrasting list-style and C-style loops.
+Final Grading: The project fulfills all the instructor’s objectives and incorporates advanced features and security enhancements. The script is interactive, well-structured, and includes detailed documentation of outputs and key concepts. The student demonstrates professional-level practice in Bash scripting, input handling, and maintaining system integrity.
+
+Grade: 100/100
+
+
+Feed Back
+The inclusion of advanced techniques like modular design, colorful outputs, and security best practices significantly enhances the usability of the script. Consider further expanding input validation by including checks for special characters or scripting injection vulnerabilities for additional robustness. Additionally, scheduling use case examples (e.g., adding the script to cron jobs) could illustrate its practical application better.
